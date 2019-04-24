@@ -1,12 +1,12 @@
 # AngularDualSlider
 An angular slider that takes an array of elements and enables sliding for loading each array element's unique data
 
-# Go To Your Angular Project
+Go To Your Angular Project
 ##  `npm install --save @angular/cdk @angular/material`
 
 ##  `git clone https://github.com/exquisapp/AngularDualSlider.git`
 
-# In `app.module.ts` or any custom module
+###In `app.module.ts` or any custom module
 ##  `import { AngularDualSliderModule } from '/directory-of-the-cloned-repo'`
 
 ##  Register module in the import array
