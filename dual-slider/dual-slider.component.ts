@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-dual-slider',
@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DualSliderComponent implements OnInit {
 
   public currentEventX;
-  public events: any[] = [1,2,3,4,5,6,7,8,9,10,11,13];
+  @Input()
+  events: any[] = [1,2,3,4,5,6,7,8,9,10,11,13];
   public structuredEvents: any[];
   public eventPairCounter = 0;
   public currentEventsDisplay: any[];
